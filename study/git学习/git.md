@@ -2,7 +2,7 @@
 ## 一、常用命令 ##
 > git init 创建版本库
 > git add <file> 将file加入到暂存区
-> git commit -m '提交的备注' 
+> git commit --m '提交的备注' 
 > git log 查看提交历史
 > git reflog 查看命令历史
 > git status 查看资源库的状态
@@ -34,7 +34,7 @@
 ## 删除文件 ##
 > 1、先进行工作区文件的删除
 > 2、执行git rm 文件名(相当于 git add)
-> 3、执行git commit -m '' 提交到版本库
+> 3、执行git commit --m '' 提交到版本库
 
 ## 远程仓库篇 ##
 ### 关联远程仓库 ###
