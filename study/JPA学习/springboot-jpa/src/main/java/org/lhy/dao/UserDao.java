@@ -28,7 +28,11 @@ public interface UserDao extends JpaRepository<User, Integer>,JpaSpecificationEx
     /**
      *
      */
-    @Query("select u as user,d.name as name from User u left  join Dept d on u.id =d.userId where IF(?1 is not null, u.name=?1, 1 = 1)")
-    List<UserDTO> findByCity(String name);
+    @Query("select u as user,d.name as name from User u left  join Dept d on u.id =d.userId where u.id =(select a.id from User a where a.id=1)")
+//    @Query(value = "SELECT a from"+
+//            " (l.name from User l) a ")
+    List<UserDTO> findByCity();
+
+
 
 }

@@ -6,6 +6,10 @@ import org.lhy.dao.UserDTO;
 import org.lhy.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.List;
@@ -47,12 +51,13 @@ public class MainApplicationTests {
          * 5：每页大小
          * Sort.Direction.ASC,"name" 排序字段
          */
-//        Page<UserDTO> byCity = userDao.findByCity(PageRequest.of(1,5,Sort.Direction.ASC,"name"));
-        List<UserDTO> byCity = userDao.findByCity((String) null);
-//        List<UserDTO> content = byCity.getContent();
-//        System.out.println("总页数:"+byCity.getTotalPages());
-//        System.out.println("总记录数:"+byCity.getTotalElements());
-        byCity.stream().forEach(x -> System.out.println(x.getUser().getName()));
+        Page<UserDTO> byCity = userDao.findByCity(PageRequest.of(1,5,Sort.Direction.ASC,"name"));
+        userDao.findOne (new Specification);
+//        List<UserDTO> byCity = userDao.findByCity();
+        List<UserDTO> content = byCity.getContent();
+        System.out.println("总页数:"+byCity.getTotalPages());
+        System.out.println("总记录数:"+byCity.getTotalElements());
+//        byCity.stream().forEach(x -> System.out.println(x.getUser().getName()));
     }
 
 
