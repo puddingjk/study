@@ -2,16 +2,18 @@ package org.lhy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.lhy.dao.UserDTO;
 import org.lhy.dao.UserDao;
+import org.lhy.model.User;
+import org.lhy.model.dto.UserDTO;
+import org.lhy.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
-import org.springframework.data.jpa.domain.Specification;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
@@ -52,13 +54,20 @@ public class MainApplicationTests {
          * Sort.Direction.ASC,"name" 排序字段
          */
         Page<UserDTO> byCity = userDao.findByCity(PageRequest.of(1,5,Sort.Direction.ASC,"name"));
-        userDao.findOne (new Specification);
+//        userDao.findOne (new Specification);
 //        List<UserDTO> byCity = userDao.findByCity();
         List<UserDTO> content = byCity.getContent();
         System.out.println("总页数:"+byCity.getTotalPages());
         System.out.println("总记录数:"+byCity.getTotalElements());
-//        byCity.stream().forEach(x -> System.out.println(x.getUser().getName()));
+        content.stream().forEach(x -> System.out.println(x.getName()));
     }
-
+    @Autowired
+    private UserService userService;
+    @Test
+    public void queryByAll(){
+        List<User> list =userService.findListAll();
+        List<String> namelist = new ArrayList<>();
+        list.stream().forEach(user -> System.out.println(user.getName()));
+    }
 
 }

@@ -9,7 +9,7 @@ import javax.persistence.*;
  * @create: 2019-03-14 18:29
  **/
 @Entity
-@Table(name="lhy_dept")
+@Table(name="sys_dept")
 public class Dept {
     private Integer id;
     private Integer userId;

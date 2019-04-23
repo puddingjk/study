@@ -2,10 +2,10 @@ package org.lhy.dao;
 
 
 import org.lhy.model.User;
+import org.lhy.model.dto.UserDTO;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
  * @author lhy
  */
 
-public interface UserDao extends JpaRepository<User, Integer>,JpaSpecificationExecutor<User> {
+public interface UserDao extends JpaRepository<User, Integer> {//,JpaSpecificationExecutor<User>
     /**
      * 根据ID查询用户
      * @param id

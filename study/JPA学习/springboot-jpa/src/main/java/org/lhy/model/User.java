@@ -4,13 +4,13 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- * @program: springboot
+ * @program: springoot-jpa
  * @description: 用户
  * @author: lhy
  * @create: 2019-02-22 17:28
  **/
 @Entity
-@Table(name="lhy_admin")
+@Table(name="sys_admin")
 public class User implements Serializable {
 
     private Integer id;
@@ -45,8 +45,7 @@ public class User implements Serializable {
     public User() {
     }
 
-    public User(Integer id, String name, String password) {
-        this.id = id;
+    public User(String name, String password) {
         this.name = name;
         this.password = password;
     }
