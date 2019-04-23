@@ -8,9 +8,9 @@ public class Main {
      static User u1 = new User();
 
     public static void main(String[] args) {
-//        System.out.println("Hello World!");
-        System.out.println(u);
-        System.out.println(u1);
-//        System.currentTimeMillis();
+        int i = 0;
+        int  b = 1;
+
+        System.out.println(i+b);
     }
 }
