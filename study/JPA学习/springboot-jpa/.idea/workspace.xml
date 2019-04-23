@@ -28,8 +28,8 @@
       <file leaf-file-name="DeptDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/DeptDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="104">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,23 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JpaSimpleQuery.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JpaSimpleQuery.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/lhy/JpaSimpleQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+            <state relative-caret-position="348">
+              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryByExampleExecutor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/lhy/maven/apache-maven-3.5.3/repo/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -61,26 +52,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/lhy/maven/apache-maven-3.5.3/repo/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/domain/Example.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JpaSpecificationExecutor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/lhy/maven/apache-maven-3.5.3/repo/org/springframework/data/spring-data-jpa/2.1.6.RELEASE/spring-data-jpa-2.1.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaSpecificationExecutor.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="263">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -99,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            <state relative-caret-position="178">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -143,9 +116,9 @@
         <option value="$PROJECT_DIR$/src/main/java/org/lhy/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lhy/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/lhy/MainApplicationTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/lhy/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/lhy/model/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/lhy/JpaSimpleQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/lhy/dao/UserDao.java" />
       </list>
     </option>
   </component>
@@ -487,17 +460,11 @@
       <updated>1555216443408</updated>
       <workItem from="1555216445739" duration="4772000" />
       <workItem from="1555310677596" duration="855000" />
-      <workItem from="1556014724650" duration="2672000" />
+      <workItem from="1556014724650" duration="3042000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainApplicationTests_testQuer1y - 2019.04.15 at 14h 47m 05s.xml">
-      <configuration name="MainApplicationTests.testQuer1y" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainApplicationTests_queryByAll - 2019.04.23 at 18h 44m 01s.xml">
-      <configuration name="MainApplicationTests.queryByAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JpaSimpleQuery_query - 2019.04.23 at 18h 50m 16s.xml">
       <configuration name="JpaSimpleQuery.query" configurationId="JUnit" />
     </history-entry>
@@ -522,9 +489,15 @@
     <history-entry file="JpaSimpleQuery_query - 2019.04.23 at 19h 02m 22s.xml">
       <configuration name="JpaSimpleQuery.query" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JpaSimpleQuery_query - 2019.04.23 at 19h 03m 33s.xml">
+      <configuration name="JpaSimpleQuery.query" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JpaSimpleQuery_query - 2019.04.23 at 19h 09m 05s.xml">
+      <configuration name="JpaSimpleQuery.query" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8299000" />
+    <option name="totallyTimeSpent" value="8669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -800,24 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/model/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/lhy/maven/apache-maven-3.5.3/repo/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/domain/Example.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -842,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/service/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -861,16 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/DeptDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/lhy/maven/apache-maven-3.5.3/repo/org/springframework/data/spring-data-commons/2.1.6.RELEASE/spring-data-commons-2.1.6.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -878,13 +820,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/lhy/JpaSimpleQuery.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/model/dto/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+        <state relative-caret-position="286">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/DeptDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/lhy/JpaSimpleQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lhy/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

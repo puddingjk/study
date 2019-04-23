@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import java.util.Optional;
+import java.util.List;
 
 /**
  * @program: springboot-jpa
@@ -36,9 +36,10 @@ public class JpaSimpleQuery {
 
         long count = userDao.count();
 //        User zhangsan = userDao.save(new User("zhangsan", "233"));
-        Optional<User> byId = userDao.findById(2);
+//        Optional<User> byId = userDao.findById(2);
+        List<User> byId = userDao.findByName("zhangsan");
 
-        System.out.println(byId.get());
+        System.out.println(byId.get(0).getName());
 //        userDao.save(user);
 //        userDao.delete(user);
 //        userDao.count();

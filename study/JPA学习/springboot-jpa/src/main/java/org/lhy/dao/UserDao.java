@@ -25,14 +25,10 @@ public interface UserDao extends JpaRepository<User, Integer> {//,JpaSpecificati
     @Query("select u as user,d.name as name from User u left  join Dept d on u.id =d.userId ")
     Page<UserDTO> findByCity(Pageable pageable);
 
-    /**
-     *
-     */
     @Query("select u as user,d.name as name from User u left  join Dept d on u.id =d.userId where u.id =(select a.id from User a where a.id=1)")
-//    @Query(value = "SELECT a from"+
-//            " (l.name from User l) a ")
     List<UserDTO> findByCity();
 
+    List<User> findByName(String name);
 
 
 }
