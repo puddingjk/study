@@ -1,0 +1,9 @@
+server:
+  port: 80
+  servlet:
+    context-path: /
+
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 192.168.220.166:9092
