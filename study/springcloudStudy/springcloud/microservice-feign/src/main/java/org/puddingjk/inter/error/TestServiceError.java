@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class TestServiceError implements TestService {
+
     @Override
     public String sayHiFromClientOne(String name) {
         return "sorry " + name;

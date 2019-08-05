@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     HelloService helloService;
+
     @RequestMapping(value = "/index")
     public String hi(@RequestParam String name){
         return helloService.hiService(name);

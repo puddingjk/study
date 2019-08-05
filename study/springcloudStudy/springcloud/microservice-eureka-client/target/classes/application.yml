@@ -4,8 +4,13 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
     healthcheck:
       enabled: true
+  #修改默认服务名称
+  instance:
+    instance-id: client-01
+    prefer-ip-address: true
+
 server:
-  port: 8763
+  port: 8762
 spring:
   application:
     name: service-hi
